@@ -1,0 +1,19 @@
+from prody import *
+
+import os, numpy, sys
+
+
+print '\n'
+
+print sys.argv[1]
+
+
+
+
+
+
+with open(sys.argv[1]) as f:
+	content =f.read()
+	fileName = content.split()
+	print fileName[11]
+

@@ -1,0 +1,2 @@
+file_lines = [''.join([x.strip(), minValues, '\n']) for x in f.readlines()]
+			print f.readlines()

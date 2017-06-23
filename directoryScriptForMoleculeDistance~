@@ -1,0 +1,2 @@
+import glob
+print glob.glob("/home/kazutoshi/c2tm/C2tm/deNovo_Models*.pdb")

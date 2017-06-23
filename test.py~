@@ -1,0 +1,15 @@
+# Marco Mravic DeGrado lab ucsf May 2017
+# input a directory of pdb files
+# extract tightest interacting 12 residue subset of a 2 helix dimer, print to file
+
+# python extract_tight12Interface.py ./
+
+import sys, os, numpy as np
+from collections import defaultdict
+from prody import *
+
+dirPath 	= sys.argv[0]
+
+print dirPath
+
+

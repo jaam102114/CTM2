@@ -1,0 +1,109 @@
+<!doctype html>
+<html><head>
+<title>UniProt: A2GRF1_TRIVA</title>
+<link type="text/css" rel="stylesheet" href="/css/gn_dbget.css">
+<!-- bget:head -->
+</head>
+<!-- bget:body -->
+<body>
+<a href="/"><img src="/Fig/gn_ttl.gif" alt="GenomeNet" border=0></a><br><br>
+<div>
+<!-- bget:header --><strong>Database:  UniProt</strong><br><strong>Entry:  A2GRF1_TRIVA</strong><br>
+<code><strong>LinkDB:  </strong><a href="/dbget-bin/get_linkdb?uniprot:A2GRF1_TRIVA">A2GRF1_TRIVA</a> <br><strong>Original site:  </strong><a href="http://www.uniprot.org/uniprot/A2GRF1_TRIVA">A2GRF1_TRIVA</a>&nbsp;</code>
+<script type="text/javascript">window.onload=function(){var w1=document.getElementById("lnk").clientWidth;var w2=document.getElementById("wrapper").clientWidth;var l=750-w1-w2;document.getElementById("lnk").style.marginRight=l+"px";};</script>
+<!-- bget:header --><div style="clear:both;margin-left:0px;width:810px"><div id="lnk" style="margin-left:1em;border:#ddd 1px solid;float:right"><div style="font-weight:bold;line-height:1.5em;background-color:#ddd">&nbsp;&nbsp;All links&nbsp;&nbsp;</div>
+<pre style="margin-left:1em">
+<span style="color:#006"><a href="/dbget-bin/get_linkdb?-t+1+up:A2GRF1_TRIVA">Ontology (5)</a></span>   
+   <a href="/dbget-bin/get_linkdb?-t+go+up:A2GRF1_TRIVA">GO (5)</a>   
+<span style="color:#006"><a href="/dbget-bin/get_linkdb?-t+8+up:A2GRF1_TRIVA">Gene (2)</a></span>   
+   <a href="/dbget-bin/get_linkdb?-t+genes+up:A2GRF1_TRIVA">KEGG GENES (1)</a>   
+   <a href="/dbget-bin/get_linkdb?-t+ncbi-geneid+up:A2GRF1_TRIVA">NCBI-Gene (1)</a>   
+<span style="color:#006"><a href="/dbget-bin/get_linkdb?-t+9+up:A2GRF1_TRIVA">Protein sequence (1)</a></span>   
+   <a href="/dbget-bin/get_linkdb?-t+refpep+up:A2GRF1_TRIVA">RefSeq(pep) (1)</a>   
+<span style="color:#006"><a href="/dbget-bin/get_linkdb?-t+10+up:A2GRF1_TRIVA">DNA sequence (1)</a></span>   
+   <a href="/dbget-bin/get_linkdb?-t+embl+up:A2GRF1_TRIVA">EMBL (1)</a>   
+<span style="color:#006"><a href="/dbget-bin/get_linkdb?-t+12+up:A2GRF1_TRIVA">Protein domain (4)</a></span>   
+   <a href="/dbget-bin/get_linkdb?-t+interpro+up:A2GRF1_TRIVA">InterPro (3)</a>   
+   <a href="/dbget-bin/get_linkdb?-t+pfam+up:A2GRF1_TRIVA">Pfam (1)</a>   
+<span style="color:#006"><a href="/dbget-bin/get_linkdb?-t+15+up:A2GRF1_TRIVA">Literature (1)</a></span>   
+   <a href="/dbget-bin/get_linkdb?-t+pubmed+up:A2GRF1_TRIVA">PubMed (1)</a>   
+<a href="/dbget-bin/get_linkdb?-t+alldb+up:A2GRF1_TRIVA">All databases (14)</a>   
+<br><a href="/dbget-bin/get_linkdb?-N+up:A2GRF1_TRIVA">Download RDF</a>   
+</pre>
+</div>
+<div class="wrapper" id="wrapper">
+
+<!-- bget:result -->
+<pre>
+<!-- bget:db:default --><!-- uniprot:A2GRF1_TRIVA -->ID   A2GRF1_TRIVA            Unreviewed;       281 AA.
+AC   A2GRF1;
+DT   20-FEB-2007, integrated into UniProtKB/TrEMBL.
+DT   20-FEB-2007, sequence version 1.
+DT   07-JUN-2017, entry version 43.
+DE   SubName: Full=Uncharacterized protein {ECO:0000313|EMBL:EAX80265.1};
+GN   ORFNames=TVAG_032420 {ECO:0000313|EMBL:EAX80265.1};
+OS   Trichomonas vaginalis.
+OC   Eukaryota; Parabasalia; Trichomonadida; Trichomonadidae; Trichomonas.
+OX   NCBI_TaxID=5722 {ECO:0000313|EMBL:EAX80265.1, ECO:0000313|Proteomes:UP000001542};
+RN   [1] {ECO:0000313|EMBL:EAX80265.1, ECO:0000313|Proteomes:UP000001542}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC PRA-98 / G3 {ECO:0000313|Proteomes:UP000001542};
+RX   PubMed=<a href="https://www.ncbi.nlm.nih.gov/pubmed/17218520">17218520</a>; DOI=10.1126/science.1132894;
+RA   Carlton J.M., Hirt R.P., Silva J.C., Delcher A.L., Schatz M., Zhao Q.,
+RA   Wortman J.R., Bidwell S.L., Alsmark U.C.M., Besteiro S.,
+RA   Sicheritz-Ponten T., Noel C.J., Dacks J.B., Foster P.G., Simillion C.,
+RA   Van de Peer Y., Miranda-Saavedra D., Barton G.J., Westrop G.D.,
+RA   Mueller S., Dessi D., Fiori P.L., Ren Q., Paulsen I., Zhang H.,
+RA   Bastida-Corcuera F.D., Simoes-Barbosa A., Brown M.T., Hayes R.D.,
+RA   Mukherjee M., Okumura C.Y., Schneider R., Smith A.J., Vanacova S.,
+RA   Villalvazo M., Haas B.J., Pertea M., Feldblyum T.V., Utterback T.R.,
+RA   Shu C.L., Osoegawa K., de Jong P.J., Hrdy I., Horvathova L.,
+RA   Zubacova Z., Dolezal P., Malik S.B., Logsdon J.M. Jr., Henze K.,
+RA   Gupta A., Wang C.C., Dunne R.L., Upcroft J.A., Upcroft P., White O.,
+RA   Salzberg S.L., Tang P., Chiu C.-H., Lee Y.-S., Embley T.M.,
+RA   Coombs G.H., Mottram J.C., Tachezy J., Fraser-Liggett C.M.,
+RA   Johnson P.J.;
+RT   "Draft genome sequence of the sexually transmitted pathogen
+RT   Trichomonas vaginalis.";
+RL   Science 315:207-212(2007).
+CC   -----------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution-NoDerivs License
+CC   -----------------------------------------------------------------------
+DR   EMBL; <a href="http://www.ebi.ac.uk/cgi-bin/emblfetch?style=html&id=DS118949&Submit=Go">DS118949</a>; EAX80265.1; -; Genomic_DNA.
+DR   RefSeq; <a href="/dbget-bin/www_bget?refseq:XP_001293195">XP_001293195</a>.1; XM_001293194.1.
+DR   ProteinModelPortal; A2GRF1; -.
+DR   EnsemblProtists; EAX80265; EAX80265; TVAG_032420.
+DR   GeneID; <a href="https://www.ncbi.nlm.nih.gov/gene/4737708">4737708</a>; -.
+DR   KEGG; <a href="/dbget-bin/www_bget?tva:TVAG_032420">tva:TVAG_032420</a>; -.
+DR   EuPathDB; TrichDB:TVAG_032420; -.
+DR   InParanoid; A2GRF1; -.
+DR   Proteomes; UP000001542; Unassembled WGS sequence.
+DR   GO; <a href="http://amigo.geneontology.org/amigo/term/GO:0008408">GO:0008408</a>; F:3'-5' exonuclease activity; IEA:InterPro.
+DR   GO; <a href="http://amigo.geneontology.org/amigo/term/GO:0003677">GO:0003677</a>; F:DNA binding; IEA:InterPro.
+DR   GO; <a href="http://amigo.geneontology.org/amigo/term/GO:0003887">GO:0003887</a>; F:DNA-directed DNA polymerase activity; IEA:InterPro.
+DR   GO; <a href="http://amigo.geneontology.org/amigo/term/GO:0000166">GO:0000166</a>; F:nucleotide binding; IEA:InterPro.
+DR   GO; <a href="http://amigo.geneontology.org/amigo/term/GO:0006260">GO:0006260</a>; P:DNA replication; IEA:InterPro.
+DR   Gene3D; 3.30.420.10; -; 1.
+DR   Gene3D; 3.90.1600.10; -; 1.
+DR   InterPro; <a href="http://www.ebi.ac.uk/interpro/entry/IPR004868">IPR004868</a>; DNA-dir_DNA_pol_B_mt/vir.
+DR   InterPro; <a href="http://www.ebi.ac.uk/interpro/entry/IPR023211">IPR023211</a>; DNA_pol_palm_dom.
+DR   InterPro; <a href="http://www.ebi.ac.uk/interpro/entry/IPR012337">IPR012337</a>; RNaseH-like_dom.
+DR   Pfam; <a href="/dbget-bin/www_bget?pfam:PF03175">PF03175</a>; DNA_pol_B_2; 1.
+DR   SUPFAM; SSF53098; SSF53098; 2.
+PE   4: Predicted;
+KW   Complete proteome {ECO:0000313|Proteomes:UP000001542};
+KW   Reference proteome {ECO:0000313|Proteomes:UP000001542}.
+FT   DOMAIN       10    242       DNA_pol_B_2. {ECO:0000259|Pfam:PF03175}.
+<a href="/dbget-bin/www_bget?-f+uniprot+A2GRF1">SQ</a>   SEQUENCE   281 AA;  32432 MW;  B9F79AF48B6BC18F CRC64;
+     MSQLEEITGT PIIKGSQTMQ IQGKYKGKLL CFKDSYAIIS TKLERFPEMF HLTSGEKEVF
+     PYNYYTEELV NTTKVGNIDD AMNHVKDIEA FNENIEKIED CKIDDEHFDM EVYSSFYCGQ
+     DVRILRDGFL KFRNDLMTEF EIDAYDYVSI SSISNKLFEK RVYWKNGNLF DLAGKPREYI
+     SKCIQGGRCM LAENKKQYNE GELITDFDAV SLYPSAIARL YCLEGIPKVM TEEMKSSEYL
+     LEHLFDDDQA EPTKEKSSQD LLSDRDLSIG KNSAFPLMSS I
+//
+</pre></div>
+<div style="clear:both"></div><!-- bget:tail --><a href="/dbget/">DBGET</a> integrated database retrieval system</div>
+
+</body>
+</html>

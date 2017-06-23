@@ -1,6 +1,12 @@
 import sys, os, numpy 
 from prody import *
 
+
+
+# enter into script:
+# python directoryScriptForMoleculeDistance.py /home/kazutoshi/c2tm/C2tm/deNovo_Models/master_searches/matches_1_params.txt /home/kazutoshi/c2tm/C2tm/deNovo_Models/c2tm_bbmodels
+
+
 print '\n'
 
 placeholder = []

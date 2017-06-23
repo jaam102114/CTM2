@@ -15,7 +15,6 @@ text=''
 counter = 0
 with open(sys.argv[1]) as f:	
 	for line in f:
-		print line[0:3]
 		line2 = line.split()		
 		if "Ro" in line:
 			continue

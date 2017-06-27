@@ -18,7 +18,7 @@ def random_membrane_res(exclude=[]):
 # Cys in existing sequence denoted residue to randomize
 # python ~/bin/memMaker.py aligned_a3d_2redesignEZout.pdb > a3d_memMade.txt
 
-inPDB = parsePDB( sys.argv[1], subset='ca', chain='A' )
+inPDB = parsePDB( sys.argv[1], subset='ca' )
 
 for atom in inPDB:
 

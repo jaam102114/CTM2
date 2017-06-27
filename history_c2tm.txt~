@@ -1,0 +1,13 @@
+
+
+# mini27\
+./createrPDS  xxxxxwekr vl2ejnr
+ ./master --bbRMSD --rmsdCut 1 --targetList master_db.list.txt
+
+# I converted master sequence utput files to fasta multiple sequence alignmetn files
+python aaScript.py /home/kazutoshi/c2tm/bb_624/mini_642.seq >> weblogo.fasta
+
+
+
+# picked random sequence for exterior residues
+python bin/mm/memMaker.py 642mutatedCys.pdb

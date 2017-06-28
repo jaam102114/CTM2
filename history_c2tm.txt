@@ -1,13 +1,31 @@
+	# 06/23/17
+Used follwoing command:
+ python directoryScriptForMoleculeDistance.py /home/kazutoshi/c2tm/C2tm/deNovo_Models/master_searches/matches_1_params.txt /home/kazutoshi/c2tm/C2tm/deNovo_Models/c2tm_bbmodels
+To determine the best canidates for c2tm master searches - 
+250cutoffMatch_DistMatrix.txt
+Based on high match value to naturally occruning pdbs, and a low distance between CA' The selceted pdb were:
+c2tm_bbmodels/00642.c083f221a8a8.allbb.pdb
+c2tm_bbmodels/00132.c083f221a8a8.allbb.pdb
 
 
-# mini27\
+06/26/17
+# mini642\ 
 ./createrPDS  xxxxxwekr vl2ejnr
  ./master --bbRMSD --rmsdCut 1 --targetList master_db.list.txt
 
 # I converted master sequence utput files to fasta multiple sequence alignmetn files
 python aaScript.py /home/kazutoshi/c2tm/bb_624/mini_642.seq >> weblogo.fasta
 
+# Using weblogo.fasta to make weblogos with different RMSD cutoffs using aaScript.py
+
+06/27/17
+# picked random sequence for exterior residues 
+python bin/mm/memMaker.py 642mutatedCysAsp.pdb >> fresh.txt
 
 
-# picked random sequence for exterior residues
-python bin/mm/memMaker.py 642mutatedCysASP.pdb
+# 06/28/17
+
+Replaced 642mutatedCysAsp.pdb with corresponding aa using pymol and saved as c2tmDesigned642.pdb
+
+
+

@@ -1,0 +1,17 @@
+import sys
+
+simpleText = ''
+
+stripping = []
+
+counter = 10
+
+with open(sys.argv[1]) as f:	
+	for line in f:	
+		stripping+= line.strip()
+		
+
+
+print stripping[0:150]
+
+

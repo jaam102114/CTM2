@@ -58,7 +58,7 @@ with open( sys.argv[2] ) as file:
 
 		if seq in seqs: continue
 		seqs.append( seq )
-		print ('loop Length:',gapL,'RMSD:', rmsd, 'match%d' % lineNum )
+		#print ('loop Length:',gapL,'RMSD:', rmsd, 'match%d' % lineNum )
 
 # 'residue indices in match:', fragMatch
 		print (seq)

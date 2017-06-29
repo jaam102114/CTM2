@@ -96,7 +96,7 @@ class PdbChain():
 
 	# reads in format from EMBL-EBI mapping https://www.ebi.ac.uk/pdbe/docs/sifts/quick.html, pdb to uniprot
 	def SIFTS_init(self, lineList):
-		if len(lineList) == 0: print 'WHY', self.name, self.uniprot
+		if len(lineList) == 0: print ('WHY'), self.name, self.uniprot
 		for i in lineList:
 			ln 			= i.rstrip().split(',')
 			chain 		= ''.join( [ln[0].upper(), ln[1].lower() ] )
@@ -125,13 +125,13 @@ class PdbChain():
 		try:
 			val = list( self.pdbRes ).index( resNum )
 		except ValueError:
-			print "Requested pdb residue %d not in chain %s" % (resNum, self.name)
+			print ("Requested pdb residue %d not in chain %s" % (resNum, self.name))
 			pass
 
 		try:
 			val = self.uniRes[val]
 		except IndexError:
-			print  "Requested pdb residue %d not in uniprot mapping of chain %s" % (val, self.name) 
+			print  ("Requested pdb residue %d not in uniprot mapping of chain %s" % (val, self.name)) 
 			pass
 		
 		return val
@@ -142,13 +142,13 @@ class PdbChain():
 		try:
 			val = list( self.uniRes ).index( resNum )
 		except ValueError:
-			print "Requested uniprot residue %d not in uniprot entry %s" % (resNum, self.uniprot)
+			print ("Requested uniprot residue %d not in uniprot entry %s" % (resNum, self.uniprot))
 			pass
 
 		try:
 			val = self.pdbRes[val]
 		except IndexError:
-			print  "Requested uniprot residue %d not in pdb mapping of chain %s" % (val, self.name) 
+			print  ("Requested uniprot residue %d not in pdb mapping of chain %s" % (val, self.name)) 
 			pass
 		
 		return val
@@ -204,9 +204,9 @@ class biMsite():
 ## Return the count of each amino acid found (includes non-natural) in a PDB model
 def cntAA( pdbPath ):
 	aaList = []
-	print '*'
+	print ('*')
 	pdbF = parsePDB( pdbPath )
-	print '*'
+	print ('*')
 
 	for res in pdbF.iterResidues():
 		try:
@@ -227,7 +227,7 @@ def freqAA (pathListFile):
 	with open( pathListFile ) as file:
 		for i in file:
 			freq.update(   cntAA( i.rstrip() ) )
-			print freq.items()
+			print (freq.items())
 			print 
 
 	freq2 = {}		
@@ -235,8 +235,8 @@ def freqAA (pathListFile):
 		val = 100 * float(v) / sum( freq.values() )
 		freq2[k] = round(val, 2)
 
-	print freq2.items()
-	print sum( freq2.values() )/100.0
+	print (freq2.items())
+	print (sum( freq2.values() )/100.0)
 
 	return freq2
 
@@ -269,7 +269,7 @@ def kmedoid_clustering( matrix, threshold_RMSD, lookupHash):
 		trials	= np.size( matrix )
 		start 	= time.time()
 		clust 	= kmedoids( matrix , c, trials)
-		print time.time()-start, 'elapsed for ', c, 'clusters', clust[-1], 'identical trajectory(s) from total',trials,
+		print (time.time()-start, 'elapsed for ', c, 'clusters', clust[-1], 'identical trajectory(s) from total',trials)
 		# for this clustering scheme, calculate mean RMSD of each cluster
 		clusterStats = {}
 		index = 0
@@ -284,8 +284,8 @@ def kmedoid_clustering( matrix, threshold_RMSD, lookupHash):
 			index += 1
 
 		cost = max( clusterStats.values() )*4.0
-		print 'maximum rmsd: ', cost
-	print Counter( clust[0] )
+		print ('maximum rmsd: ', cost)
+	print (Counter( clust[0] ))
 	return clust
 
 
@@ -347,7 +347,7 @@ def calcAlign( path1, path2 ):
 	if match:
 		return match.group(1)
 	else:
-		print 'ERROR IN FINDING ALIGNMENT MATCH... exiting'
+		print ('ERROR IN FINDING ALIGNMENT MATCH... exiting')
 		sys.exit()
 
 

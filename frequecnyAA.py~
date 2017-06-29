@@ -1,0 +1,19 @@
+import numpy as np
+
+from collections import Counter
+
+with open("text.txt", "r", encoding="utf-8") as text:
+    lines = [list(line[:-1]) for line in text.readlines()]
+
+lines = np.array(lines)
+
+# for first question
+
+for i in lines.shape[1]:
+
+    counter = Counter(lines[:, i])
+
+    for key in counter.keys():
+
+        print key, counter[key] / lines.shape[0]
+

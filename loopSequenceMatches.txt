@@ -1,0 +1,75 @@
+>loop Length: 4 RMSD: 0.267 match475
+LNSY
+
+>loop Length: 4 RMSD: 0.338 match1063
+HGDD
+
+>loop Length: 4 RMSD: 0.3654 match1270
+DESA
+
+>loop Length: 4 RMSD: 0.3788 match1368
+LNDE
+
+>loop Length: 4 RMSD: 0.3981 match1504
+LDDE
+
+>loop Length: 4 RMSD: 0.435 match1770
+STDP
+
+>loop Length: 4 RMSD: 0.4426 match1819
+
+LPER
+
+>loop Length: 4 RMSD: 0.4541 match1905
+LDDE
+
+>loop Length: 4 RMSD: 0.4711 match2022
+MPFE
+
+>loop Length: 4 RMSD: 0.478 match2083
+IGFE
+
+>loop Length: 4 RMSD: 0.267 match475
+LNSY
+
+>loop Length: 4 RMSD: 0.338 match1063
+HGDD
+
+>loop Length: 5 RMSD: 0.34 match1079
+LDDDP
+
+>loop Length: 4 RMSD: 0.3654 match1270
+DESA
+
+>loop Length: 4 RMSD: 0.3788 match1368
+LNDE
+
+>loop Length: 4 RMSD: 0.3981 match1504
+LDDE
+
+>loop Length: 6 RMSD: 0.4178 match1661
+KNGATA
+
+>loop Length: 6 RMSD: 0.4337 match1757
+LTTKHP
+
+>loop Length: 4 RMSD: 0.435 match1770
+STDP
+
+>loop Length: 6 RMSD: 0.4403 match1805
+LENLFP
+
+>loop Length: 4 RMSD: 0.4426 match1819
+LPER
+
+>loop Length: 4 RMSD: 0.4541 match1905
+LDDE
+
+>loop Length: 4 RMSD: 0.4711 match2022
+MPFE
+
+>loop Length: 4 RMSD: 0.478 match2083
+IGFE
+
+>loop Length: 5 RMSD: 0.4787 match2085
+KTKAL

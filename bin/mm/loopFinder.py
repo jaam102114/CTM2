@@ -12,22 +12,23 @@ inPDB = parsePDB( sys.argv[1], subset = 'bb' )
 # python ~/bin/loopFinder.py BA-Loop.pdb BA-Loop.m ~/termanal/support.default/v2_162901_bc_30-scPDB_oPDB/ BA-Loop_Matches/
 
 
+
+
 seqs = []
 
 # look into file
 lineNum = 0
 with open( sys.argv[2] ) as file:
 	for m in file:
-		
 		rmsd = float(  m[:7].strip() )
-		if rmsd > 0.8: 
-			break
+		if rmsd > 0.8:
+			 break
 
 		fragMatch = [ tuple( x.strip(',').strip('()').split(',') ) for x in m.split('[')[-1].split(']')[0].split() ]
 		
 		gapL = int ( fragMatch[1][0] ) - int( fragMatch[0][1] ) -1
 
-		if gapL > 16 or gapL < 0:
+		if gapL > 4 or gapL < 0:
 			lineNum +=1
 			continue
 
@@ -50,7 +51,6 @@ with open( sys.argv[2] ) as file:
 			res.setResnum( r )
 			r += 1
 
-
 		wholeset 	= mPdb.select( selRng ).copy()
 		ends		= mPdb.select( selStr ).copy()
 
@@ -58,29 +58,23 @@ with open( sys.argv[2] ) as file:
 
 		if seq in seqs: continue
 		seqs.append( seq )
+		#print ('loop Length:',gapL,'RMSD:', rmsd, 'match%d' % lineNum )
 
-		print 'loop Length:', gapL, 'RMSD:', rmsd, 'match%d' % ( lineNum ),# 'residue indices in match:', fragMatch
-		print	seq
+# 'residue indices in match:', fragMatch
+		print (seq)
 		print
-
-
-
 
 		wholeset.setTitle( str(rmsd) )
 		ends.setTitle( str(rmsd) )
 		loopPath = os.path.join( sys.argv[4], 'loopMatch' + str(lineNum) + '.pdb' )
 		endsPath = os.path.join( sys.argv[4], 'endsMatch' + str(lineNum) + '.pdb' )
-
-		
 		# find transformation matrix from original PDB (aligned to target) to native PDB
 		betterMat	 = superpose( ends, inPDB )[1]
 		wholeset 	 = applyTransformation( betterMat, wholeset.copy())
-
 
 		writePDB( loopPath, wholeset )
 		writePDB( endsPath, ends )
 
 		## Align loop file to input PDB coords
-
 
 		lineNum +=1

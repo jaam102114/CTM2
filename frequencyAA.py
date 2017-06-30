@@ -10,6 +10,7 @@ while True:
 	with open(sys.argv[1]) as f:	
 		for line in f:			
 			stripping+= line.strip()
+			stripping2 += line,strip() + '\n'
 			elements += stripping[-12+counting+placeholding]
 			counting+= 12
 			print elements
@@ -21,9 +22,8 @@ while True:
 				elements =[]
 				record = []
 				counting = 12
-				dataset_list = ''.join(stripping)
+				dataset_list = ''.join(stripping2)
 				print dataset_list
-
 	if placeholding > 11:
 		break
 

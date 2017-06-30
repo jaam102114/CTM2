@@ -28,7 +28,7 @@ with open( sys.argv[2] ) as file:
 		
 		gapL = int ( fragMatch[1][0] ) - int( fragMatch[0][1] ) -1
 
-		if gapL > 4 or gapL < 0:
+		if gapL > 8 or gapL < 2:
 			lineNum +=1
 			continue
 
@@ -58,7 +58,7 @@ with open( sys.argv[2] ) as file:
 
 		if seq in seqs: continue
 		seqs.append( seq )
-		#print ('loop Length:',gapL,'RMSD:', rmsd, 'match%d' % lineNum )
+		print ('loop Length:',gapL,'RMSD:', rmsd, 'match%d' % lineNum )
 
 # 'residue indices in match:', fragMatch
 		print (seq)

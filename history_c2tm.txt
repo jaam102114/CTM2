@@ -1,31 +1,40 @@
-	# 06/23/17
-Used follwoing command:
- python directoryScriptForMoleculeDistance.py /home/kazutoshi/c2tm/C2tm/deNovo_Models/master_searches/matches_1_params.txt /home/kazutoshi/c2tm/C2tm/deNovo_Models/c2tm_bbmodels
-To determine the best canidates for c2tm master searches - 
+# 06/23/17
+
+Used following command:
+python directoryScriptForMoleculeDistance.py /home/kazutoshi/c2tm/C2tm/deNovo_Models/master_searches/matches_1_params.txt /home/kazutoshi/c2tm/C2tm/deNovo_Models/c2tm_bbmodels
+
+To determine the best canidates for c2tm master searches - stored in
 250cutoffMatch_DistMatrix.txt
+
 Based on high match value to naturally occruning pdbs, and a low distance between CA' The selceted pdb were:
 c2tm_bbmodels/00642.c083f221a8a8.allbb.pdb
 c2tm_bbmodels/00132.c083f221a8a8.allbb.pdb
 
 
 06/26/17
-# mini642\ 
-./createrPDS  xxxxxwekr vl2ejnr
- ./master --bbRMSD --rmsdCut 1 --targetList master_db.list.txt
+# mini642
+./create PDS with mini 642 and used the databae provied by MM
+ ./master --bbRMSD --rmsdCut .5 --targetList master_db.list.txt
 
-# I converted master sequence utput files to fasta multiple sequence alignmetn files
+I converted master sequence utput files to fasta multiple sequence alignmetn files
 python aaScript.py /home/kazutoshi/c2tm/bb_624/mini_642.seq >> weblogo.fasta
 
-# Using weblogo.fasta to make weblogos with different RMSD cutoffs using aaScript.py
+Using weblogo.fasta to make weblogos with different RMSD cutoffs using aaScript.py
+
+Using the weblogo we determined that the 6,13, and 20 positions could be Gly, and the other positions did not have a strong signature for any particular residue
 
 06/27/17
-# picked random sequence for exterior residues 
+
+Converted the pdb of 00642.c083f221a8a8.allbb.pdb to contain Cys at all positions besides 6,13, and 20. Then added Asp to create a CCDDCDG pattern for the amino acid residues: where C are positions where the residue would be less likely to interact with the helix.
+
+
+# picked random sequence for exterior residues using script:
 python bin/mm/memMaker.py 642mutatedCysAsp.pdb >> fresh.txt
 
 
 # 06/28/17
 
-Replaced 642mutatedCysAsp.pdb with corresponding aa using pymol and saved as c2tmDesigned642.pdb
+Replaced 642mutatedCysAsp.pdb with corresponding aa denoted in fresh.txt using pymol and saved as c2tmDesigned642.pdb
 
 Created a PDB with only 1st 4 aa of Chain A and last four of Chain B called:
 c2tmDesigned642Looped.pdb
@@ -36,8 +45,28 @@ c2tmDesigned642Looped.pdb
 Using Script:
 /home/gpu/jam_data/CTM2/master --query /home/gpu/jam_data/CTM2/c2tmDesigned642Looped.pds --targetList /home/gpu/Desktop/mm_162901_SCmasterDB/v2_162901_bc_30-scPDB/list2.txt --rmsdCut 1.0 --matchOut c2tmDesigned642Looped.match --seqOut c2tmDesigned642Looped.seq --structOut c2tmDesigned642Looped.struct --topN 5000
 
+Created a set of PDBs (top 5000) that contains a loop which may be better suited for our designed helical proteins.
+ 
+
 Using script:
 python /home/gpu/jam_data/CTM2/bin/mm/loopFinder.py /home/gpu/jam_data/CTM2/c2tmDesigned642Looped.pdb /home/gpu/jam_data/CTM2/c2tmDesigned642Looped.match /home/gpu/Desktop/mm_162901_SCmasterDB/v2_162901_bc_30-scPDB_oPDB /home/gpu/jam_data/CTM2/c2tmDesigned642Looped.struct >> loopSequenceMatches.8_Gap2_8.txt
+
+
+An output of the helical and loop sequences with the count of the loop length and corresponding pdb and the residues denoted in the text file
+
+
+
+06/30/17
+
+Used the output file :loopSequenceMatches.8_Gap2_8.txt ran script -- 
+python aaFrequencySorting.py loopSequenceMatches.8_Gap2_8.txt >> sortedLoopSequenceMatches.8_Gap2_8.txt
+to create a sorted file by loop length
+
+Created a file with loop sequences of length 4 and 8, loopSequence4.txt and loopSequence8.txt
+Used script:
+
+To determine the frequency of AA at specific positions
+
 
 
 

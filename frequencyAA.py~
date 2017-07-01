@@ -1,5 +1,7 @@
 import sys
+import collections
 stripping = []
+stripping2 = []
 elements =[]
 record = []
 counting = 12
@@ -10,22 +12,32 @@ while True:
 	with open(sys.argv[1]) as f:	
 		for line in f:			
 			stripping+= line.strip()
-			stripping2 += line,strip() + '\n'
+			stripping2 += line.strip() + '\n'
+			dataset_list = ''.join(stripping2)			
 			elements += stripping[-12+counting+placeholding]
 			counting+= 12
-			print elements
 			if counting >131:
 				placeholding+=1
 				record.append(elements)
 				print record
 				stripping = []
+				stripping2 = []
 				elements =[]
 				record = []
-				counting = 12
-				dataset_list = ''.join(stripping2)
-				print dataset_list
+				counting = 12			
 	if placeholding > 11:
 		break
+
+counter =0
+for i in dataset_list:
+	print i
+
+
+sys.exit()
+
+for s in dataset_list:
+	letters = collections.Counter(record)
+	print s,letters
 
 
 

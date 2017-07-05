@@ -65,7 +65,10 @@ to create a sorted file by loop length
 Created a file with loop sequences of length 4 and 8, loopSequence4.txt and loopSequence8.txt
 Used script:
 
-To determine the frequency of AA at specific positions
+To determine the frequency of AA at specific positions used script:
+python AAarray.py loopSequence4.txt
+
+
 
 
 

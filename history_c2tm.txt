@@ -16,7 +16,7 @@ c2tm_bbmodels/00132.c083f221a8a8.allbb.pdb
 ./create PDS with mini 642 and used the databae provied by MM
  ./master --bbRMSD --rmsdCut .5 --targetList master_db.list.txt
 
-I converted master sequence utput files to fasta multiple sequence alignmetn files
+I converted master sequence output files to fasta multiple sequence alignmetn files
 python aaScript.py /home/kazutoshi/c2tm/bb_624/mini_642.seq >> weblogo.fasta
 
 Using weblogo.fasta to make weblogos with different RMSD cutoffs using aaScript.py

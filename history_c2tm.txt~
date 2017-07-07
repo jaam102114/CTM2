@@ -66,7 +66,14 @@ Created a file with loop sequences of length 4 and 8, loopSequence4.txt and loop
 Used script:
 
 To determine the frequency of AA at specific positions used script:
-python AAarray.py loopSequence4.txt
+python AAarray.py loopSequence4.txt >> positional_arrays4sequences.txt
+
+Then using the script:
+
+python frequencyAAScript.py positional_arrays4sequences.txt
+A print of frequencies can be outputted 
+
+Using pymol for analysis, determined that loopMatch514 passed trhough the most positions of the matching pdbs.
 
 
 

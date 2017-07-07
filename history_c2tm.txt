@@ -80,3 +80,36 @@ Using pymol for analysis, determined that loopMatch514 passed trhough the most p
 
 
 
+
+
+/home/gpu/jam_NewRepository/CTM2/master --query /home/gpu/jam_NewRepository/CTM2/Designed132BB_v2Loop.pds --targetList /home/gpu/Desktop/mm_162901_SCmasterDB/v2_162901_bc_30-scPDB/list2.txt --rmsdCut 1.0 --matchOut Designed132BB_v2Loop.match --seqOut Designed132BB_v2Loop.seq --structOut Designed132BB_v2Loop.struct --topN 5000
+
+
+python ../bin/mm/EZresiOptimizer.py Designed132BB_v2.pdb resi.txt >> EZ_potentialNORM_scores.txt
+
+
+../createPDS --type query --pdb loopTemplate.pdb --opdb O_loopTemplate.pdb
+
+../master --query loopTemplate.pds --targetList /home/gpu/Desktop/mm_162901_SCmasterDB/v2_162901_bc_30-scPDB/list2.txt --rmsdCut .5 --matchOut 132loops.match --seqOut 132loops.seq --structOut 132loops --topN 4000 --bbRMSD
+
+
+######### Loops for 132
+
+python ../bin/mm/loopFinder.py loopTemplate.pdb 132loops.match ~/Desktop/mm_162901_SCmasterDB/v2_162901_bc_30-scPDB_oPDB/ 132loops
+
+
+loop Length   8 49 times
+loop Length   5 31 times
+loop Length   7 37 times
+loop Length   6 92 times
+loop Length   4 12 times
+loop Length   3 4 times
+loop Length   2 99 times
+
+
+In [10]: for i in os.listdir('.'):
+    ...:     pdb=parsePDB(i, subset='ca')
+    ...:     print (pdb.getResnames(), i, '\n')
+    ...:     
+
+

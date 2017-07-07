@@ -24,7 +24,7 @@ for atom in inPDB:
 
 	# select a residue at each cys, and initialize the list of residues to exclude from random calculation
 	if atom.getResname() != 'CYS':
-		print UnNatAA[ atom.getResname() ] ,
+		print (UnNatAA[ atom.getResname() ])
 		continue
 	exclude = []
 		
@@ -65,7 +65,7 @@ for atom in inPDB:
 		ip7Res =  UnNatAA[ inPDB[ip7Resnum].getResname() ] 
 		if ip7Resnum in ['A', 'G', 'S'] and 'A' not in exclude:
 			exclude.append('A')
-			print 'prevented A'
+			print ('prevented A')
 
 	if im7Resnum >= 0 :
 		im7Res =  UnNatAA[ inPDB[im7Resnum].getResname() ] 
@@ -73,7 +73,7 @@ for atom in inPDB:
 			exclude.append('A')
 
 	newRes = random_membrane_res(exclude)
-	print newRes ,
+	print (newRes) 
 
 
 

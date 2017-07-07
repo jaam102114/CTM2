@@ -21,10 +21,10 @@ with open( sys.argv[2] ) as fin:
 #			print i.rstrip(), 'not really in membrane, skipping residue to avoid poor prediciton\n'
 #			continue
 
-		print i.rstrip(), z
+		print (i.rstrip(), z)
 		# compute the EZ score for each
 		scores = [ (round( compute_Ez(k,z), 4 ), k) for k in Ez_potential.keys() if compute_Ez(k,z) < 0 ]
 		# convert each score to 
 
 		
-		print sorted( scores )[:3], '\n'
+		print (sorted( scores )[:3], '\n')

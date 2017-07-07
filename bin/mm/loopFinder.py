@@ -11,8 +11,8 @@ inPDB = parsePDB( sys.argv[1], subset = 'bb' )
 # python ~/bin/loopFinder.py 56_helices.pdb 56_helices.m ~/termanal/support.default/151218_masterDB_parsedPDB/ ~/tertBuilding/CMP_bobo/56_helices/
 # python ~/bin/loopFinder.py BA-Loop.pdb BA-Loop.m ~/termanal/support.default/v2_162901_bc_30-scPDB_oPDB/ BA-Loop_Matches/
 
-
-
+from collections import Counter
+loopLen = []
 
 seqs = []
 
@@ -41,10 +41,10 @@ with open( sys.argv[2] ) as file:
 		resis = ' '.join( [ str( x ) for x in sorted( all_match[:] )] )
 
 
-		selStr 		= 'resnum ' + resis
+		selStr 		= 'bb resnum ' + resis
 		selRng 		= 'resnum %d to %d' % ( all_match[0], all_match[-1] )
 		look_upPath = os.path.join( sys.argv[3], os.path.basename( m.split()[1] ).split('.')[0] + '.pdb' )	
-		mPdb 		= parsePDB( look_upPath, subset = 'bb' )
+		mPdb 		= parsePDB( look_upPath )
 
 		r = 0
 		for res in mPdb.iterResidues():
@@ -66,15 +66,22 @@ with open( sys.argv[2] ) as file:
 
 		wholeset.setTitle( str(rmsd) )
 		ends.setTitle( str(rmsd) )
-		loopPath = os.path.join( sys.argv[4], 'loopMatch' + str(lineNum) + '.pdb' )
-		endsPath = os.path.join( sys.argv[4], 'endsMatch' + str(lineNum) + '.pdb' )
+		loopPath = os.path.join( sys.argv[4], '%d_loopMatch' % gapL + str(lineNum) + '.pdb' )
+		endsPath = os.path.join( sys.argv[4], '%d_endsMatch' % gapL + str(lineNum) + '.pdb' )
 		# find transformation matrix from original PDB (aligned to target) to native PDB
 		betterMat	 = superpose( ends, inPDB )[1]
 		wholeset 	 = applyTransformation( betterMat, wholeset.copy())
 
 		writePDB( loopPath, wholeset )
-		writePDB( endsPath, ends )
+#		writePDB( endsPath, ends )
+		loopLen.append(gapL)
 
 		## Align loop file to input PDB coords
 
 		lineNum +=1
+
+loopCnts = Counter(loopLen)
+print 
+
+for k,v in loopCnts.items():
+	print ('loop Length  ', k, v, 'times')

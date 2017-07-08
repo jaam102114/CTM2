@@ -1,0 +1,17 @@
+import os
+
+from prody import *
+
+import sys
+
+for i in os.listdir('.'):
+	if i.endswith(".pdb"):
+		pdb=parsePDB(i, subset='ca')
+		print pdb.getResnames()
+
+
+
+sys.exit()
+
+test = parsePDB('/home/kazutoshi/c2tm/mm_loopingDesign132/2_loops/2_loopMatch1863.pdb')
+print pdb.getResnames()

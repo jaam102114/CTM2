@@ -1,0 +1,40 @@
+Residue 1 has the frequency below
+Counter({'L': 32, 'A': 24, 'M': 7, 'Q': 5, 'E': 4, 'G': 4, 'N': 4, 'V': 3, 'Y': 3, 'K': 2, 'S': 2, 'W': 2, 'C': 1, 'F': 1, 'H': 1, 'T': 1})
+
+
+Residue 2 has the frequency below
+Counter({'Y': 60, 'A': 37, 'L': 34, 'G': 8, 'M': 7, 'W': 7, 'Q': 6, 'S': 6, 'F': 5, 'N': 5, 'E': 4, 'H': 4, 'V': 4, 'K': 2, 'C': 1, 'R': 1, 'T': 1})
+
+
+Residue 3 has the frequency below
+Counter({'Y': 61, 'L': 44, 'A': 38, 'R': 17, 'E': 14, 'K': 14, 'Q': 14, 'N': 11, 'G': 10, 'M': 10, 'H': 9, 'S': 9, 'F': 8, 'W': 8, 'V': 8, 'D': 6, 'T': 3, 'C': 2, 'I': 2})
+
+
+Residue 4 has the frequency below
+Counter({'Y': 64, 'L': 61, 'A': 52, 'R': 25, 'E': 23, 'V': 23, 'K': 17, 'Q': 16, 'M': 12, 'G': 11, 'H': 11, 'N': 11, 'S': 11, 'F': 10, 'T': 10, 'I': 9, 'W': 9, 'D': 7, 'C': 2})
+
+
+Residue 5 has the frequency below
+Counter({'T': 67, 'Y': 67, 'L': 66, 'A': 52, 'E': 25, 'R': 25, 'V': 23, 'S': 22, 'K': 19, 'Q': 18, 'F': 17, 'G': 12, 'M': 12, 'N': 12, 'W': 12, 'H': 11, 'D': 9, 'I': 9, 'C': 2})
+
+
+Residue 6 has the frequency below
+Counter({'Y': 68, 'T': 67, 'L': 66, 'G': 59, 'A': 53, 'K': 37, 'R': 28, 'Q': 27, 'E': 26, 'V': 23, 'N': 22, 'S': 22, 'F': 17, 'H': 14, 'M': 12, 'W': 12, 'D': 11, 'I': 9, 'C': 3})
+
+
+Residue 7 has the frequency below
+Counter({'T': 69, 'Y': 68, 'L': 67, 'G': 60, 'A': 53, 'D': 52, 'K': 47, 'E': 39, 'N': 39, 'R': 33, 'Q': 27, 'S': 25, 'V': 24, 'F': 17, 'H': 14, 'M': 12, 'W': 12, 'I': 10, 'C': 4})
+
+
+Residue 8 has the frequency below
+Counter({'T': 75, 'Y': 71, 'L': 67, 'G': 61, 'A': 60, 'K': 59, 'E': 57, 'D': 56, 'N': 42, 'R': 36, 'Q': 35, 'S': 31, 'V': 26, 'F': 19, 'H': 15, 'M': 15, 'I': 14, 'P': 13, 'W': 12, 'C': 4})
+
+
+Residue 9 has the frequency below
+Counter({'T': 80, 'K': 78, 'Y': 74, 'L': 72, 'A': 68, 'E': 68, 'D': 66, 'G': 65, 'N': 44, 'R': 44, 'Q': 39, 'S': 35, 'V': 30, 'F': 19, 'I': 19, 'H': 18, 'M': 16, 'P': 13, 'W': 12, 'C': 4})
+
+
+Residue 10 has the frequency below
+Counter({'Y': 131, 'K': 81, 'L': 81, 'T': 80, 'A': 73, 'D': 70, 'E': 68, 'G': 65, 'N': 44, 'R': 44, 'Q': 39, 'S': 37, 'V': 30, 'F': 26, 'I': 21, 'M': 19, 'H': 18, 'W': 15, 'P': 13, 'C': 5})
+
+

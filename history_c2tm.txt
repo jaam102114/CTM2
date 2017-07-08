@@ -76,15 +76,12 @@ A print of frequencies can be outputted
 Using pymol for analysis, determined that loopMatch514 passed trhough the most positions of the matching pdbs.
 
 
-
-
-
-
-
-
+#
 /home/gpu/jam_NewRepository/CTM2/master --query /home/gpu/jam_NewRepository/CTM2/Designed132BB_v2Loop.pds --targetList /home/gpu/Desktop/mm_162901_SCmasterDB/v2_162901_bc_30-scPDB/list2.txt --rmsdCut 1.0 --matchOut Designed132BB_v2Loop.match --seqOut Designed132BB_v2Loop.seq --structOut Designed132BB_v2Loop.struct --topN 5000
 
 
+
+# Using following script to create loop 132
 python ../bin/mm/EZresiOptimizer.py Designed132BB_v2.pdb resi.txt >> EZ_potentialNORM_scores.txt
 
 
@@ -107,9 +104,48 @@ loop Length   3 4 times
 loop Length   2 99 times
 
 
-In [10]: for i in os.listdir('.'):
-    ...:     pdb=parsePDB(i, subset='ca')
-    ...:     print (pdb.getResnames(), i, '\n')
-    ...:     
+########### 07/07/17		with using sequences for only loop length 2:
+
+Used script when in /home/kazutoshi/c2tm/mm_loopingDesign132/2_loops directory:
+
+python ../../residue_seq_script.py >> 2_loop_rawArraySequences.txt
+
+#Then using script: to create a text file that contains only the sequences
+
+python ../../aaScriptRawSequence.py 2_loop_rawArraySequences.txt >> 2_loop_rawSequences.txt
+
+
+# Finally using script:
+To create a print out of frequency analalysis
+
+python ../../rawSequenceReformating.py 2_loop_rawSequences.txt >> 2_loop_FrequencyData.txt
+
+
+
+############## with using sequences for only loop length 6:
+
+Used script when in /home/kazutoshi/c2tm/mm_loopingDesign132/6_loops directory:
+
+python ../../residue_seq_script.py >> 6_loop_rawArraySequences.txt
+
+#Then using script: to create a text file that contains only the sequences
+
+python ../../aaScriptRawSequence.py 6_loop_rawArraySequences.txt >> 6_loop_rawSequences.txt
+
+
+# Finally using script:
+To create a print out of frequency analalysis
+
+python ../../rawSequenceReformating.py 6_loop_rawSequences.txt >> 6_loop_FrequencyData.txt
+
+
+
+
+
+
+
+
+
+
 
 

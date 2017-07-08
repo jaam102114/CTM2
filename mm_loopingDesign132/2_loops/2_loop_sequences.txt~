@@ -1,0 +1,64 @@
+['GLY' 'GLY' 'GLY' 'GLY' 'GLY' 'GLY' 'GLY' 'GLY' 'GLY' 'GLY' 'GLY' 'GLY'
+ 'GLY' 'GLY' 'GLY' 'GLY' 'GLY' 'GLY' 'GLY' 'GLY' 'GLY' 'GLY' 'GLY' 'GLY'
+ 'GLY' 'GLY' 'GLY' 'GLY' 'GLY' 'GLY' 'GLY' 'GLY' 'GLY' 'GLY' 'GLY' 'GLY'
+ 'GLY' 'GLY' 'GLY' 'GLY' 'GLY' 'GLY' 'GLY' 'GLY' 'GLY' 'GLY' 'GLY' 'GLY'
+ 'GLY' 'GLY']
+['PHE' 'ASP' 'ASP' 'PHE' 'ASP' 'GLY' 'VAL' 'LEU' 'ASP' 'ASP' 'LEU' 'ASP'
+ 'GLY' 'ILE' 'LEU' 'ASP' 'ASP' 'LEU' 'ASP' 'GLY' 'LEU' 'LEU' 'ASP' 'ASP'
+ 'ALA' 'PHE' 'ASP' 'ASP' 'PHE' 'ASP' 'GLY' 'VAL' 'LEU' 'ASP' 'ASP' 'LEU'
+ 'ASP' 'GLY' 'ILE' 'LEU' 'ASP' 'ASP' 'LEU' 'ASP' 'GLY' 'LEU' 'LEU' 'ASP'
+ 'ASP' 'ALA']
+['PHE' 'ASP' 'ASP' 'PHE' 'LEU' 'ASP' 'ASP' 'ALA']
+['LEU' 'GLY' 'VAL' 'LEU' 'PHE' 'GLY' 'LEU' 'ILE']
+['LEU' 'GLY' 'VAL' 'LEU' 'GLY' 'LEU' 'ILE' 'MET']
+['CYS' 'GLY' 'CYS' 'CYS' 'CYS' 'CYS' 'CYS' 'CYS' 'GLY' 'CYS' 'CYS' 'CYS'
+ 'CYS' 'GLY' 'CYS' 'CYS' 'CYS' 'CYS' 'CYS' 'CYS' 'GLY' 'CYS' 'CYS' 'CYS'
+ 'CYS' 'GLY' 'CYS' 'CYS' 'CYS' 'CYS' 'CYS' 'CYS' 'GLY' 'CYS' 'CYS' 'CYS'
+ 'CYS' 'CYS' 'CYS' 'GLY' 'CYS' 'CYS' 'CYS' 'CYS' 'CYS' 'CYS' 'GLY' 'CYS'
+ 'CYS' 'CYS' 'GLY' 'CYS' 'CYS' 'CYS' 'CYS' 'CYS' 'CYS' 'GLY' 'CYS' 'CYS'
+ 'CYS' 'CYS' 'CYS' 'CYS' 'GLY' 'CYS' 'CYS' 'CYS' 'CYS' 'CYS' 'CYS' 'GLY'
+ 'CYS' 'CYS']
+['GLY' 'GLY' 'GLY' 'GLY' 'GLY' 'GLY' 'GLY' 'GLY' 'GLY' 'GLY' 'GLY' 'GLY'
+ 'GLY' 'GLY' 'GLY' 'GLY' 'GLY' 'GLY' 'GLY' 'GLY' 'GLY' 'GLY' 'GLY' 'GLY'
+ 'GLY' 'GLY' 'GLY' 'GLY' 'GLY' 'GLY' 'GLY' 'GLY' 'GLY' 'GLY' 'GLY' 'GLY'
+ 'GLY' 'GLY' 'GLY' 'GLY' 'GLY' 'GLY' 'GLY' 'GLY' 'GLY' 'GLY' 'GLY' 'GLY'
+ 'GLY' 'GLY']
+['CYS' 'GLY' 'CYS' 'CYS' 'SER' 'LEU' 'CYS' 'LEU' 'GLY' 'CYS' 'CYS' 'MET'
+ 'LEU' 'CYS' 'LEU' 'GLY' 'CYS' 'CYS' 'SER' 'LEU' 'CYS' 'LEU' 'GLY' 'CYS'
+ 'CYS' 'CYS' 'GLY' 'CYS' 'CYS' 'SER' 'LEU' 'CYS' 'LEU' 'GLY' 'CYS' 'CYS'
+ 'MET' 'LEU' 'CYS' 'LEU' 'GLY' 'CYS' 'CYS' 'SER' 'LEU' 'CYS' 'LEU' 'GLY'
+ 'CYS' 'CYS']
+['LEU' 'GLY' 'VAL' 'LEU' 'PHE' 'GLY' 'LEU' 'ILE']
+['GLY' 'GLY' 'GLY' 'GLY' 'GLY' 'GLY' 'GLY' 'GLY' 'GLY' 'GLY' 'GLY' 'GLY'
+ 'GLY' 'GLY' 'GLY' 'GLY' 'GLY' 'GLY' 'GLY' 'GLY' 'GLY' 'GLY' 'GLY' 'GLY']
+['PHE' 'GLY' 'LEU' 'ILE' 'MET' 'ILE' 'LEU' 'PHE' 'GLY' 'LEU' 'LEU' 'ALA'
+ 'VAL' 'LEU' 'LEU' 'GLY' 'ILE' 'PHE' 'THR' 'PHE' 'ILE' 'LEU' 'GLY' 'VAL'
+ 'LEU' 'PHE' 'GLY' 'LEU' 'ILE' 'MET' 'ILE' 'LEU' 'PHE' 'GLY' 'LEU' 'LEU'
+ 'ALA' 'VAL' 'LEU' 'LEU' 'GLY' 'ILE' 'PHE' 'THR' 'PHE' 'ILE' 'LEU' 'GLY'
+ 'VAL' 'LEU']
+['PHE' 'GLY' 'LEU' 'ILE' 'SER' 'LEU' 'ALA' 'LEU' 'GLY' 'LEU' 'LEU' 'MET'
+ 'LEU' 'LEU' 'LEU' 'GLY' 'ILE' 'PHE' 'SER' 'LEU' 'ILE' 'LEU' 'GLY' 'VAL'
+ 'LEU' 'PHE' 'GLY' 'LEU' 'ILE' 'SER' 'LEU' 'ALA' 'LEU' 'GLY' 'LEU' 'LEU'
+ 'MET' 'LEU' 'LEU' 'LEU' 'GLY' 'ILE' 'PHE' 'SER' 'LEU' 'ILE' 'LEU' 'GLY'
+ 'VAL' 'LEU']
+['CYS' 'GLY' 'CYS' 'CYS' 'ASP' 'ASP' 'CYS' 'ASP' 'GLY' 'CYS' 'CYS' 'ASP'
+ 'ASP' 'CYS' 'ASP' 'GLY' 'CYS' 'CYS' 'ASP' 'ASP' 'CYS' 'ASP' 'GLY' 'CYS'
+ 'CYS' 'CYS' 'GLY' 'CYS' 'CYS' 'ASP' 'ASP' 'CYS' 'ASP' 'GLY' 'CYS' 'CYS'
+ 'ASP' 'ASP' 'CYS' 'ASP' 'GLY' 'CYS' 'CYS' 'ASP' 'ASP' 'CYS' 'ASP' 'GLY'
+ 'CYS' 'CYS']
+['LEU' 'GLY' 'VAL' 'LEU' 'GLY' 'LEU' 'ILE' 'MET']
+['CYS' 'ASP' 'ASP' 'CYS' 'ASP' 'GLY' 'CYS' 'CYS' 'ASP' 'ASP' 'CYS' 'ASP'
+ 'GLY' 'CYS' 'CYS' 'ASP' 'ASP' 'CYS' 'ASP' 'GLY' 'CYS' 'CYS' 'ASP' 'ASP'
+ 'CYS' 'CYS' 'ASP' 'ASP' 'CYS' 'ASP' 'GLY' 'CYS' 'CYS' 'ASP' 'ASP' 'CYS'
+ 'ASP' 'GLY' 'CYS' 'CYS' 'ASP' 'ASP' 'CYS' 'ASP' 'GLY' 'CYS' 'CYS' 'ASP'
+ 'ASP' 'CYS']
+['CYS' 'CYS' 'CYS' 'CYS' 'CYS' 'CYS' 'CYS' 'GLY' 'CYS' 'CYS' 'CYS' 'CYS'
+ 'CYS' 'CYS' 'GLY' 'CYS' 'CYS' 'CYS' 'CYS' 'CYS' 'CYS' 'GLY' 'CYS' 'CYS'
+ 'CYS' 'CYS' 'CYS' 'CYS' 'CYS' 'CYS' 'CYS' 'CYS' 'GLY' 'CYS' 'CYS' 'CYS'
+ 'CYS' 'CYS' 'CYS' 'GLY' 'CYS' 'CYS' 'CYS' 'CYS' 'CYS' 'CYS' 'GLY' 'CYS'
+ 'CYS' 'CYS' 'CYS' 'CYS']
+['PHE' 'GLY' 'LEU' 'ILE' 'MET' 'ILE' 'LEU' 'PHE' 'GLY' 'LEU' 'LEU' 'ALA'
+ 'VAL' 'LEU' 'LEU' 'GLY' 'ILE' 'PHE' 'THR' 'PHE' 'ILE' 'LEU' 'GLY' 'VAL'
+ 'LEU' 'PHE' 'GLY' 'LEU' 'ILE' 'MET' 'ILE' 'LEU' 'PHE' 'GLY' 'LEU' 'LEU'
+ 'ALA' 'VAL' 'LEU' 'LEU' 'GLY' 'ILE' 'PHE' 'THR' 'PHE' 'ILE' 'LEU' 'GLY'
+ 'VAL' 'LEU']

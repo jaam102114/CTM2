@@ -1,0 +1,368 @@
+['LEU' 'TRP' 'ASP' 'SER' 'ALA' 'GLN' 'ALA' 'ALA' 'GLU' 'GLN' 'LYS' 'ASN'
+ 'GLY' 'TYR']
+['VAL' 'GLY' 'ARG' 'GLN' 'PHE' 'SER' 'GLY' 'ALA' 'GLY' 'ALA' 'ARG' 'VAL'
+ 'ALA' 'CYS']
+['PHE' 'ALA' 'ALA' 'HIS' 'ALA' 'GLY' 'SER' 'ASP' 'GLU' 'ALA' 'ARG' 'ARG'
+ 'PHE' 'TRP']
+['ARG' 'VAL' 'ALA' 'SER' 'SER' 'THR' 'LEU' 'LEU' 'ASP' 'ASP' 'ARG' 'ARG'
+ 'ASN' 'ALA']
+['LEU' 'GLU' 'GLU' 'LYS' 'SER' 'GLU' 'ASP' 'GLN' 'GLU' 'ASP' 'LYS' 'GLU'
+ 'CYS' 'LEU']
+['ILE' 'ALA' 'ASP' 'LEU' 'SER' 'GLU' 'ARG' 'ASP' 'TRP' 'VAL' 'ARG' 'TYR'
+ 'LEU' 'TRP']
+['PRO' 'GLN' 'HIS' 'VAL' 'SER' 'PRO' 'SER' 'LYS' 'ASP' 'ILE' 'ARG' 'THR'
+ 'ALA' 'SER']
+['LEU' 'GLY' 'TYR' 'GLN' 'ALA' 'GLU' 'SER' 'ALA' 'THR' 'TRP' 'ARG' 'GLY'
+ 'PHE' 'TYR']
+['ARG' 'ALA' 'LEU' 'LYS' 'SER' 'ALA' 'ASN' 'TYR' 'ALA' 'GLU' 'MET' 'THR'
+ 'PHE' 'ASN']
+['ALA' 'ALA' 'ALA' 'ASN' 'SER' 'ALA' 'ASP' 'PRO' 'GLU' 'VAL' 'LYS' 'ARG'
+ 'LEU' 'GLY']
+['LYS' 'ALA' 'GLN' 'LYS' 'MSE' 'HIS' 'SER' 'GLY' 'ILE' 'HIS' 'LYS' 'ARG'
+ 'PHE' 'TYR']
+['GLN' 'ALA' 'LEU' 'ASP' 'ALA' 'PRO' 'THR' 'TRP' 'GLN' 'GLN' 'ALA' 'VAL'
+ 'PRO' 'PHE']
+['ALA' 'LEU' 'LEU' 'ALA' 'ALA' 'ARG' 'ASN' 'ARG' 'ALA' 'ASP' 'PHE' 'VAL'
+ 'SER' 'ALA']
+['PHE' 'ILE' 'ASP' 'HIS' 'ALA' 'GLY' 'HIS' 'PRO' 'PHE' 'TYR' 'GLN' 'ALA'
+ 'LEU' 'GLY']
+['ALA' 'VAL' 'ASP' 'MET' 'TYR' 'LYS' 'TYR' 'GLY' 'LYS' 'ILE' 'ALA' 'PHE'
+ 'VAL' 'ALA']
+['ALA' 'ALA' 'ALA' 'LEU' 'THR' 'LYS' 'SER' 'TRP' 'SER' 'ASN' 'ARG' 'GLN'
+ 'ALA' 'ILE']
+['VAL' 'GLN' 'GLN' 'MET' 'ALA' 'PRO' 'ALA' 'SER' 'THR' 'ILE' 'SER' 'ASN'
+ 'CYS' 'CYS']
+['PRO' 'TRP' 'THR' 'HIS' 'GLU' 'LYS' 'ASN' 'THR' 'THR' 'LYS' 'LYS' 'ALA'
+ 'GLU' 'LEU']
+['MSE' 'ALA' 'LEU' 'ASN' 'ASP' 'LYS' 'SER' 'ALA' 'CYS' 'VAL' 'ARG' 'ALA'
+ 'THR' 'ALA']
+['ALA' 'ALA' 'THR' 'CYS' 'ALA' 'GLN' 'ASP' 'GLU' 'THR' 'LEU' 'ARG' 'GLU'
+ 'PHE' 'PHE']
+['ASP' 'ILE' 'LEU' 'LEU' 'ALA' 'LYS' 'ASP' 'THR' 'THR' 'GLU' 'ALA' 'PHE'
+ 'GLU' 'LYS']
+['GLY' 'ILE' 'VAL' 'THR' 'ALA' 'THR' 'GLU' 'GLN' 'GLU' 'VAL' 'LYS' 'GLU'
+ 'ASP' 'ILE']
+['LEU' 'MET' 'ARG' 'HIS' 'ALA' 'ARG' 'ASN' 'ASP' 'PHE' 'SER' 'ARG' 'TRP'
+ 'ASP' 'ALA']
+['GLN' 'ALA' 'ALA' 'PHE' 'SER' 'GLN' 'ASP' 'THR' 'THR' 'VAL' 'ALA' 'ALA'
+ 'LEU' 'SER']
+['LEU' 'ALA' 'LEU' 'VAL' 'TYR' 'LYS' 'ASP' 'ASP' 'VAL' 'VAL' 'LYS' 'ASN'
+ 'ASP' 'ALA']
+['GLN' 'PHE' 'HIS' 'GLU' 'ALA' 'ASN' 'ASN' 'MET' 'THR' 'ASP' 'ALA' 'LEU'
+ 'ALA' 'ALA']
+['GLY' 'VAL' 'LEU' 'ALA' 'ALA' 'ALA' 'THR' 'THR' 'ASP' 'ILE' 'ARG' 'ALA'
+ 'GLN' 'ARG']
+['VAL' 'GLY' 'ALA' 'LEU' 'THR' 'LYS' 'VAL' 'TYR' 'SER' 'TYR' 'ARG' 'PHE'
+ 'VAL' 'TRP']
+['GLU' 'ALA' 'GLU' 'GLN' 'ALA' 'GLN' 'SER' 'ARG' 'ALA' 'ASP' 'PHE' 'ILE'
+ 'ASN' 'LYS']
+['ALA' 'ALA' 'GLU' 'LYS' 'ALA' 'THR' 'ALA' 'GLU' 'GLY' 'GLU' 'LYS' 'ALA'
+ 'SER' 'LEU']
+['LEU' 'TYR' 'ARG' 'GLN' 'ALA' 'GLU' 'ASP' 'ARG' 'GLU' 'ARG' 'GLY' 'LYS'
+ 'GLY' 'TYR']
+['LYS' 'ALA' 'ALA' 'GLN' 'GLN' 'ASP' 'ASP' 'TYR' 'GLN' 'MSE' 'PHE' 'LEU'
+ 'ASN' 'TYR']
+['ILE' 'ARG' 'ALA' 'GLY' 'SER' 'GLN' 'VAL' 'GLU' 'GLU' 'SER' 'ARG' 'ILE'
+ 'GLN' 'ALA']
+['MET' 'ALA' 'ARG' 'PHE' 'SER' 'LYS' 'ALA' 'PRO' 'GLY' 'ASN' 'ARG' 'ASN'
+ 'MET' 'ALA']
+['GLU' 'ALA' 'LEU' 'GLN' 'GLN' 'PRO' 'GLU' 'THR' 'ARG' 'THR' 'ALA' 'SER'
+ 'ASP' 'LYS']
+['LEU' 'ALA' 'GLN' 'GLN' 'TYR' 'VAL' 'MET' 'THR' 'SER' 'LEU' 'GLN' 'GLN'
+ 'GLU' 'TYR']
+['VAL' 'VAL' 'GLU' 'HIS' 'ALA' 'GLU' 'THR' 'ALA' 'ASP' 'ASP' 'ARG' 'VAL'
+ 'PHE' 'ALA']
+['ILE' 'ALA' 'ASP' 'ASN' 'THR' 'SER' 'ASP' 'ALA' 'LYS' 'ARG' 'LYS' 'ALA'
+ 'GLU' 'LEU']
+['LEU' 'ALA' 'LEU' 'GLU' 'GLN' 'THR' 'ASP' 'PHE' 'CYS' 'ASP' 'PHE' 'GLU'
+ 'ILE' 'GLN']
+['LEU' 'LEU' 'ASP' 'ARG' 'ASP' 'ALA' 'CYS' 'ASP' 'THR' 'VAL' 'ARG' 'VAL'
+ 'LYS' 'ALA']
+['ILE' 'ALA' 'LEU' 'LYS' 'ASP' 'SER' 'ASN' 'LEU' 'GLU' 'VAL' 'ARG' 'LEU'
+ 'SER' 'ALA']
+['LYS' 'ALA' 'ARG' 'ASN' 'THR' 'SER' 'ASN' 'LEU' 'GLU' 'GLU' 'ARG' 'LYS'
+ 'LYS' 'TYR']
+['LEU' 'ALA' 'ARG' 'ALA' 'LEU' 'GLY' 'PRO' 'GLY' 'GLU' 'LEU' 'SER' 'ASP'
+ 'ARG' 'VAL']
+['LYS' 'ALA' 'GLY' 'PHE' 'ALA' 'THR' 'SER' 'GLN' 'GLU' 'ALA' 'TYR' 'ASP'
+ 'GLU' 'ALA']
+['LYS' 'SER' 'GLY' 'PHE' 'ALA' 'SER' 'THR' 'GLN' 'LYS' 'ALA' 'TYR' 'GLU'
+ 'ALA' 'ALA']
+['ASP' 'MET' 'ILE' 'THR' 'ALA' 'ASP' 'SER' 'PHE' 'ASP' 'ASP' 'TYR' 'GLU'
+ 'ALA' 'ALA']
+['LEU' 'ALA' 'GLN' 'GLN' 'ASN' 'ALA' 'VAL' 'THR' 'SER' 'LEU' 'SER' 'GLU'
+ 'GLU' 'ALA']
+['GLN' 'ALA' 'VAL' 'LEU' 'GLU' 'PHE' 'ASP' 'PRO' 'GLU' 'ARG' 'ARG' 'LYS'
+ 'GLN' 'LEU']
+['SER' 'ALA' 'GLU' 'SER' 'ALA' 'ASP' 'SER' 'LYS' 'SER' 'GLU' 'ALA' 'LEU'
+ 'LYS' 'LYS']
+['ALA' 'GLY' 'SER' 'LYS' 'ALA' 'PRO' 'CYS' 'LEU' 'GLU' 'ASP' 'MET' 'GLU'
+ 'LYS' 'GLU']
+['PHE' 'ALA' 'ASN' 'ASN' 'VAL' 'THR' 'ASN' 'GLN' 'ALA' 'ASP' 'LYS' 'ASN'
+ 'TYR' 'TRP']
+['LEU' 'SER' 'ARG' 'GLN' 'ALA' 'LYS' 'ALA' 'ALA' 'ASP' 'VAL' 'ARG' 'SER'
+ 'GLN' 'VAL']
+['ALA' 'TYR' 'GLN' 'HIS' 'THR' 'SER' 'ASP' 'PRO' 'ALA' 'LEU' 'LYS' 'ALA'
+ 'GLU' 'LEU']
+['ILE' 'ILE' 'GLY' 'GLN' 'SER' 'ILE' 'ARG' 'GLU' 'ASP' 'VAL' 'ALA' 'LEU'
+ 'MSE' 'PHE']
+['VAL' 'ALA' 'VAL' 'SER' 'ASP' 'SER' 'ASN' 'ASP' 'ASP' 'VAL' 'ARG' 'ARG'
+ 'ALA' 'ALA']
+['LEU' 'ALA' 'GLN' 'ILE' 'VAL' 'GLN' 'ASP' 'GLU' 'ALA' 'SER' 'GLN' 'ASP'
+ 'ASN' 'TYR']
+['ALA' 'TYR' 'VAL' 'LEU' 'GLU' 'LYS' 'ASP' 'PRO' 'THR' 'GLN' 'LYS' 'ALA'
+ 'GLN' 'LEU']
+['PHE' 'ALA' 'SER' 'LEU' 'ALA' 'THR' 'ASN' 'GLU' 'LYS' 'GLU' 'LYS' 'GLN'
+ 'ARG' 'LEU']
+['GLN' 'SER' 'PHE' 'HIS' 'VAL' 'GLU' 'ASN' 'ALA' 'GLY' 'ILE' 'LYS' 'ASP'
+ 'MET' 'LEU']
+['GLU' 'SER' 'ALA' 'LYS' 'ILE' 'MET' 'ASP' 'PRO' 'ASP' 'GLU' 'GLN' 'LEU'
+ 'GLU' 'THR']
+['LEU' 'ALA' 'ALA' 'GLN' 'ILE' 'GLU' 'GLU' 'PRO' 'ILE' 'LEU' 'ALA' 'GLY'
+ 'LEU' 'ILE']
+['ALA' 'SER' 'ALA' 'ARG' 'THR' 'ALA' 'ASN' 'PRO' 'THR' 'ALA' 'LYS' 'ARG'
+ 'GLN' 'PHE']
+['ASN' 'SER' 'ILE' 'LEU' 'SER' 'PRO' 'ASP' 'GLN' 'ASN' 'ILE' 'ARG' 'LEU'
+ 'THR' 'SER']
+['CYS' 'ALA' 'GLU' 'ASP' 'LEU' 'ARG' 'ASP' 'PRO' 'GLN' 'LEU' 'LYS' 'ALA'
+ 'ALA' 'MET']
+['GLN' 'ALA' 'HIS' 'SER' 'GLU' 'LYS' 'ASP' 'PRO' 'LEU' 'LYS' 'ARG' 'PHE'
+ 'LEU' 'TYR']
+['VAL' 'ALA' 'GLU' 'GLN' 'SER' 'GLU' 'LYS' 'PRO' 'ARG' 'ILE' 'ARG' 'THR'
+ 'MSE' 'LEU']
+['THR' 'PHE' 'VAL' 'GLN' 'ALA' 'GLN' 'LEU' 'CYS' 'GLN' 'ASP' 'VAL' 'LEU'
+ 'SER' 'SER']
+['ARG' 'MSE' 'LEU' 'ALA' 'ALA' 'THR' 'THR' 'GLU' 'ASP' 'GLU' 'LEU' 'THR'
+ 'ALA' 'ALA']
+['LEU' 'ALA' 'SER' 'ILE' 'GLU' 'THR' 'ASP' 'SER' 'GLU' 'ILE' 'LYS' 'ALA'
+ 'ASN' 'TYR']
+['THR' 'MET' 'GLN' 'ASN' 'THR' 'ASN' 'ASP' 'VAL' 'GLU' 'THR' 'ALA' 'ARG'
+ 'CYS' 'THR']
+['ILE' 'GLY' 'LYS' 'ILE' 'ALA' 'ASP' 'SER' 'LYS' 'SER' 'LEU' 'LYS' 'GLU'
+ 'ASP' 'ALA']
+['ALA' 'ALA' 'ALA' 'ASP' 'VAL' 'PRO' 'GLY' 'ARG' 'GLU' 'ASP' 'ARG' 'ARG'
+ 'GLU' 'LEU']
+['LYS' 'MET' 'ILE' 'LEU' 'SER' 'ASP' 'SER' 'VAL' 'GLU' 'ALA' 'ARG' 'GLU'
+ 'GLU' 'ALA']
+['VAL' 'ILE' 'ARG' 'ALA' 'PHE' 'ARG' 'GLY' 'ASN' 'GLU' 'LEU' 'GLN' 'ASN'
+ 'TYR' 'PHE']
+['ILE' 'GLY' 'LYS' 'SER' 'THR' 'ASP' 'SER' 'GLU' 'ARG' 'THR' 'LYS' 'GLN'
+ 'ASP' 'ALA']
+['ASN' 'VAL' 'PHE' 'LEU' 'ALA' 'GLN' 'ASN' 'LEU' 'GLU' 'GLU' 'ARG' 'SER'
+ 'ARG' 'ALA']
+['ILE' 'ALA' 'GLY' 'ASP' 'ALA' 'THR' 'ALA' 'THR' 'THR' 'VAL' 'SER' 'GLN'
+ 'MET' 'HIS']
+['ALA' 'ILE' 'GLY' 'GLU' 'ALA' 'LYS' 'ASP' 'GLU' 'ASP' 'THR' 'ALA' 'ASP'
+ 'ILE' 'PHE']
+['LEU' 'CYS' 'ALA' 'MSE' 'TYR' 'THR' 'ASP' 'PRO' 'ILE' 'ALA' 'THR' 'ALA'
+ 'ILE' 'PHE']
+['CYS' 'VAL' 'ALA' 'HIS' 'ALA' 'ASP' 'LYS' 'LEU' 'GLU' 'SER' 'LYS' 'LEU'
+ 'ARG' 'PHE']
+['LEU' 'GLY' 'SER' 'SER' 'GLU' 'ASP' 'ASN' 'THR' 'ALA' 'LEU' 'SER' 'ARG'
+ 'ALA' 'LEU']
+['LEU' 'ALA' 'GLU' 'LYS' 'ILE' 'LYS' 'ILE' 'GLU' 'ALA' 'LEU' 'LYS' 'GLU'
+ 'LYS' 'ILE']
+['ARG' 'ILE' 'HIS' 'ASN' 'SER' 'ASN' 'ILE' 'LEU' 'ASP' 'GLU' 'ARG' 'GLN'
+ 'GLY' 'LEU']
+['ILE' 'PHE' 'LEU' 'LEU' 'SER' 'ARG' 'SER' 'THR' 'ALA' 'ASN' 'GLN' 'GLN'
+ 'VAL' 'ALA']
+['ILE' 'ALA' 'LYS' 'THR' 'ALA' 'PRO' 'ASN' 'ALA' 'ALA' 'ASP' 'ARG' 'LYS'
+ 'ALA' 'ALA']
+['ALA' 'GLY' 'ILE' 'TYR' 'ALA' 'LYS' 'SER' 'PRO' 'VAL' 'LYS' 'CYS' 'GLU'
+ 'TYR' 'LEU']
+['ALA' 'VAL' 'HIS' 'ASN' 'SER' 'GLN' 'ARG' 'SER' 'VAL' 'ILE' 'GLN' 'GLU'
+ 'GLN' 'ALA']
+['ARG' 'ALA' 'GLU' 'ASP' 'GLU' 'MET' 'ASP' 'LEU' 'ASP' 'ARG' 'ARG' 'ALA'
+ 'TYR' 'ALA']
+['ARG' 'ILE' 'GLN' 'LYS' 'SER' 'LYS' 'GLY' 'ARG' 'ALA' 'GLU' 'LYS' 'ILE'
+ 'ARG' 'HIS']
+['ILE' 'ALA' 'GLU' 'GLY' 'TYR' 'SER' 'ALA' 'LYS' 'GLU' 'VAL' 'LYS' 'ASN'
+ 'ASP' 'ALA']
+['ALA' 'VAL' 'VAL' 'LYS' 'SER' 'GLU' 'THR' 'HIS' 'SER' 'GLU' 'MSE' 'LEU'
+ 'ALA' 'ALA']
+['LYS' 'ALA' 'LEU' 'ASP' 'THR' 'THR' 'ASP' 'LEU' 'ASN' 'LEU' 'ARG' 'LYS'
+ 'GLN' 'TYR']
+['LEU' 'TRP' 'ASP' 'SER' 'ALA' 'GLN' 'ALA' 'ALA' 'GLU' 'GLN' 'LYS' 'ASN'
+ 'GLY' 'TYR']
+['VAL' 'GLY' 'ARG' 'GLN' 'PHE' 'SER' 'GLY' 'ALA' 'GLY' 'ALA' 'ARG' 'VAL'
+ 'ALA' 'CYS']
+['PHE' 'ALA' 'ALA' 'HIS' 'ALA' 'GLY' 'SER' 'ASP' 'GLU' 'ALA' 'ARG' 'ARG'
+ 'PHE' 'TRP']
+['ARG' 'VAL' 'ALA' 'SER' 'SER' 'THR' 'LEU' 'LEU' 'ASP' 'ASP' 'ARG' 'ARG'
+ 'ASN' 'ALA']
+['LEU' 'GLU' 'GLU' 'LYS' 'SER' 'GLU' 'ASP' 'GLN' 'GLU' 'ASP' 'LYS' 'GLU'
+ 'CYS' 'LEU']
+['ILE' 'ALA' 'ASP' 'LEU' 'SER' 'GLU' 'ARG' 'ASP' 'TRP' 'VAL' 'ARG' 'TYR'
+ 'LEU' 'TRP']
+['PRO' 'GLN' 'HIS' 'VAL' 'SER' 'PRO' 'SER' 'LYS' 'ASP' 'ILE' 'ARG' 'THR'
+ 'ALA' 'SER']
+['LEU' 'GLY' 'TYR' 'GLN' 'ALA' 'GLU' 'SER' 'ALA' 'THR' 'TRP' 'ARG' 'GLY'
+ 'PHE' 'TYR']
+['ARG' 'ALA' 'LEU' 'LYS' 'SER' 'ALA' 'ASN' 'TYR' 'ALA' 'GLU' 'MET' 'THR'
+ 'PHE' 'ASN']
+['ALA' 'ALA' 'ALA' 'ASN' 'SER' 'ALA' 'ASP' 'PRO' 'GLU' 'VAL' 'LYS' 'ARG'
+ 'LEU' 'GLY']
+['LYS' 'ALA' 'GLN' 'LYS' 'MSE' 'HIS' 'SER' 'GLY' 'ILE' 'HIS' 'LYS' 'ARG'
+ 'PHE' 'TYR']
+['GLN' 'ALA' 'LEU' 'ASP' 'ALA' 'PRO' 'THR' 'TRP' 'GLN' 'GLN' 'ALA' 'VAL'
+ 'PRO' 'PHE']
+['ALA' 'LEU' 'LEU' 'ALA' 'ALA' 'ARG' 'ASN' 'ARG' 'ALA' 'ASP' 'PHE' 'VAL'
+ 'SER' 'ALA']
+['PHE' 'ILE' 'ASP' 'HIS' 'ALA' 'GLY' 'HIS' 'PRO' 'PHE' 'TYR' 'GLN' 'ALA'
+ 'LEU' 'GLY']
+['ALA' 'VAL' 'ASP' 'MET' 'TYR' 'LYS' 'TYR' 'GLY' 'LYS' 'ILE' 'ALA' 'PHE'
+ 'VAL' 'ALA']
+['ALA' 'ALA' 'ALA' 'LEU' 'THR' 'LYS' 'SER' 'TRP' 'SER' 'ASN' 'ARG' 'GLN'
+ 'ALA' 'ILE']
+['VAL' 'GLN' 'GLN' 'MET' 'ALA' 'PRO' 'ALA' 'SER' 'THR' 'ILE' 'SER' 'ASN'
+ 'CYS' 'CYS']
+['PRO' 'TRP' 'THR' 'HIS' 'GLU' 'LYS' 'ASN' 'THR' 'THR' 'LYS' 'LYS' 'ALA'
+ 'GLU' 'LEU']
+['MSE' 'ALA' 'LEU' 'ASN' 'ASP' 'LYS' 'SER' 'ALA' 'CYS' 'VAL' 'ARG' 'ALA'
+ 'THR' 'ALA']
+['ALA' 'ALA' 'THR' 'CYS' 'ALA' 'GLN' 'ASP' 'GLU' 'THR' 'LEU' 'ARG' 'GLU'
+ 'PHE' 'PHE']
+['ASP' 'ILE' 'LEU' 'LEU' 'ALA' 'LYS' 'ASP' 'THR' 'THR' 'GLU' 'ALA' 'PHE'
+ 'GLU' 'LYS']
+['GLY' 'ILE' 'VAL' 'THR' 'ALA' 'THR' 'GLU' 'GLN' 'GLU' 'VAL' 'LYS' 'GLU'
+ 'ASP' 'ILE']
+['LEU' 'MET' 'ARG' 'HIS' 'ALA' 'ARG' 'ASN' 'ASP' 'PHE' 'SER' 'ARG' 'TRP'
+ 'ASP' 'ALA']
+['GLN' 'ALA' 'ALA' 'PHE' 'SER' 'GLN' 'ASP' 'THR' 'THR' 'VAL' 'ALA' 'ALA'
+ 'LEU' 'SER']
+['LEU' 'ALA' 'LEU' 'VAL' 'TYR' 'LYS' 'ASP' 'ASP' 'VAL' 'VAL' 'LYS' 'ASN'
+ 'ASP' 'ALA']
+['GLN' 'PHE' 'HIS' 'GLU' 'ALA' 'ASN' 'ASN' 'MET' 'THR' 'ASP' 'ALA' 'LEU'
+ 'ALA' 'ALA']
+['GLY' 'VAL' 'LEU' 'ALA' 'ALA' 'ALA' 'THR' 'THR' 'ASP' 'ILE' 'ARG' 'ALA'
+ 'GLN' 'ARG']
+['VAL' 'GLY' 'ALA' 'LEU' 'THR' 'LYS' 'VAL' 'TYR' 'SER' 'TYR' 'ARG' 'PHE'
+ 'VAL' 'TRP']
+['GLU' 'ALA' 'GLU' 'GLN' 'ALA' 'GLN' 'SER' 'ARG' 'ALA' 'ASP' 'PHE' 'ILE'
+ 'ASN' 'LYS']
+['ALA' 'ALA' 'GLU' 'LYS' 'ALA' 'THR' 'ALA' 'GLU' 'GLY' 'GLU' 'LYS' 'ALA'
+ 'SER' 'LEU']
+['LEU' 'TYR' 'ARG' 'GLN' 'ALA' 'GLU' 'ASP' 'ARG' 'GLU' 'ARG' 'GLY' 'LYS'
+ 'GLY' 'TYR']
+['LYS' 'ALA' 'ALA' 'GLN' 'GLN' 'ASP' 'ASP' 'TYR' 'GLN' 'MSE' 'PHE' 'LEU'
+ 'ASN' 'TYR']
+['ILE' 'ARG' 'ALA' 'GLY' 'SER' 'GLN' 'VAL' 'GLU' 'GLU' 'SER' 'ARG' 'ILE'
+ 'GLN' 'ALA']
+['MET' 'ALA' 'ARG' 'PHE' 'SER' 'LYS' 'ALA' 'PRO' 'GLY' 'ASN' 'ARG' 'ASN'
+ 'MET' 'ALA']
+['GLU' 'ALA' 'LEU' 'GLN' 'GLN' 'PRO' 'GLU' 'THR' 'ARG' 'THR' 'ALA' 'SER'
+ 'ASP' 'LYS']
+['LEU' 'ALA' 'GLN' 'GLN' 'TYR' 'VAL' 'MET' 'THR' 'SER' 'LEU' 'GLN' 'GLN'
+ 'GLU' 'TYR']
+['VAL' 'VAL' 'GLU' 'HIS' 'ALA' 'GLU' 'THR' 'ALA' 'ASP' 'ASP' 'ARG' 'VAL'
+ 'PHE' 'ALA']
+['ILE' 'ALA' 'ASP' 'ASN' 'THR' 'SER' 'ASP' 'ALA' 'LYS' 'ARG' 'LYS' 'ALA'
+ 'GLU' 'LEU']
+['LEU' 'ALA' 'LEU' 'GLU' 'GLN' 'THR' 'ASP' 'PHE' 'CYS' 'ASP' 'PHE' 'GLU'
+ 'ILE' 'GLN']
+['LEU' 'LEU' 'ASP' 'ARG' 'ASP' 'ALA' 'CYS' 'ASP' 'THR' 'VAL' 'ARG' 'VAL'
+ 'LYS' 'ALA']
+['ILE' 'ALA' 'LEU' 'LYS' 'ASP' 'SER' 'ASN' 'LEU' 'GLU' 'VAL' 'ARG' 'LEU'
+ 'SER' 'ALA']
+['LYS' 'ALA' 'ARG' 'ASN' 'THR' 'SER' 'ASN' 'LEU' 'GLU' 'GLU' 'ARG' 'LYS'
+ 'LYS' 'TYR']
+['LEU' 'ALA' 'ARG' 'ALA' 'LEU' 'GLY' 'PRO' 'GLY' 'GLU' 'LEU' 'SER' 'ASP'
+ 'ARG' 'VAL']
+['LYS' 'ALA' 'GLY' 'PHE' 'ALA' 'THR' 'SER' 'GLN' 'GLU' 'ALA' 'TYR' 'ASP'
+ 'GLU' 'ALA']
+['LYS' 'SER' 'GLY' 'PHE' 'ALA' 'SER' 'THR' 'GLN' 'LYS' 'ALA' 'TYR' 'GLU'
+ 'ALA' 'ALA']
+['ASP' 'MET' 'ILE' 'THR' 'ALA' 'ASP' 'SER' 'PHE' 'ASP' 'ASP' 'TYR' 'GLU'
+ 'ALA' 'ALA']
+['LEU' 'ALA' 'GLN' 'GLN' 'ASN' 'ALA' 'VAL' 'THR' 'SER' 'LEU' 'SER' 'GLU'
+ 'GLU' 'ALA']
+['GLN' 'ALA' 'VAL' 'LEU' 'GLU' 'PHE' 'ASP' 'PRO' 'GLU' 'ARG' 'ARG' 'LYS'
+ 'GLN' 'LEU']
+['SER' 'ALA' 'GLU' 'SER' 'ALA' 'ASP' 'SER' 'LYS' 'SER' 'GLU' 'ALA' 'LEU'
+ 'LYS' 'LYS']
+['ALA' 'GLY' 'SER' 'LYS' 'ALA' 'PRO' 'CYS' 'LEU' 'GLU' 'ASP' 'MET' 'GLU'
+ 'LYS' 'GLU']
+['PHE' 'ALA' 'ASN' 'ASN' 'VAL' 'THR' 'ASN' 'GLN' 'ALA' 'ASP' 'LYS' 'ASN'
+ 'TYR' 'TRP']
+['LEU' 'SER' 'ARG' 'GLN' 'ALA' 'LYS' 'ALA' 'ALA' 'ASP' 'VAL' 'ARG' 'SER'
+ 'GLN' 'VAL']
+['ALA' 'TYR' 'GLN' 'HIS' 'THR' 'SER' 'ASP' 'PRO' 'ALA' 'LEU' 'LYS' 'ALA'
+ 'GLU' 'LEU']
+['ILE' 'ILE' 'GLY' 'GLN' 'SER' 'ILE' 'ARG' 'GLU' 'ASP' 'VAL' 'ALA' 'LEU'
+ 'MSE' 'PHE']
+['VAL' 'ALA' 'VAL' 'SER' 'ASP' 'SER' 'ASN' 'ASP' 'ASP' 'VAL' 'ARG' 'ARG'
+ 'ALA' 'ALA']
+['LEU' 'ALA' 'GLN' 'ILE' 'VAL' 'GLN' 'ASP' 'GLU' 'ALA' 'SER' 'GLN' 'ASP'
+ 'ASN' 'TYR']
+['ALA' 'TYR' 'VAL' 'LEU' 'GLU' 'LYS' 'ASP' 'PRO' 'THR' 'GLN' 'LYS' 'ALA'
+ 'GLN' 'LEU']
+['PHE' 'ALA' 'SER' 'LEU' 'ALA' 'THR' 'ASN' 'GLU' 'LYS' 'GLU' 'LYS' 'GLN'
+ 'ARG' 'LEU']
+['GLN' 'SER' 'PHE' 'HIS' 'VAL' 'GLU' 'ASN' 'ALA' 'GLY' 'ILE' 'LYS' 'ASP'
+ 'MET' 'LEU']
+['GLU' 'SER' 'ALA' 'LYS' 'ILE' 'MET' 'ASP' 'PRO' 'ASP' 'GLU' 'GLN' 'LEU'
+ 'GLU' 'THR']
+['LEU' 'ALA' 'ALA' 'GLN' 'ILE' 'GLU' 'GLU' 'PRO' 'ILE' 'LEU' 'ALA' 'GLY'
+ 'LEU' 'ILE']
+['ALA' 'SER' 'ALA' 'ARG' 'THR' 'ALA' 'ASN' 'PRO' 'THR' 'ALA' 'LYS' 'ARG'
+ 'GLN' 'PHE']
+['ASN' 'SER' 'ILE' 'LEU' 'SER' 'PRO' 'ASP' 'GLN' 'ASN' 'ILE' 'ARG' 'LEU'
+ 'THR' 'SER']
+['CYS' 'ALA' 'GLU' 'ASP' 'LEU' 'ARG' 'ASP' 'PRO' 'GLN' 'LEU' 'LYS' 'ALA'
+ 'ALA' 'MET']
+['GLN' 'ALA' 'HIS' 'SER' 'GLU' 'LYS' 'ASP' 'PRO' 'LEU' 'LYS' 'ARG' 'PHE'
+ 'LEU' 'TYR']
+['VAL' 'ALA' 'GLU' 'GLN' 'SER' 'GLU' 'LYS' 'PRO' 'ARG' 'ILE' 'ARG' 'THR'
+ 'MSE' 'LEU']
+['THR' 'PHE' 'VAL' 'GLN' 'ALA' 'GLN' 'LEU' 'CYS' 'GLN' 'ASP' 'VAL' 'LEU'
+ 'SER' 'SER']
+['ARG' 'MSE' 'LEU' 'ALA' 'ALA' 'THR' 'THR' 'GLU' 'ASP' 'GLU' 'LEU' 'THR'
+ 'ALA' 'ALA']
+['LEU' 'ALA' 'SER' 'ILE' 'GLU' 'THR' 'ASP' 'SER' 'GLU' 'ILE' 'LYS' 'ALA'
+ 'ASN' 'TYR']
+['THR' 'MET' 'GLN' 'ASN' 'THR' 'ASN' 'ASP' 'VAL' 'GLU' 'THR' 'ALA' 'ARG'
+ 'CYS' 'THR']
+['ILE' 'GLY' 'LYS' 'ILE' 'ALA' 'ASP' 'SER' 'LYS' 'SER' 'LEU' 'LYS' 'GLU'
+ 'ASP' 'ALA']
+['ALA' 'ALA' 'ALA' 'ASP' 'VAL' 'PRO' 'GLY' 'ARG' 'GLU' 'ASP' 'ARG' 'ARG'
+ 'GLU' 'LEU']
+['LYS' 'MET' 'ILE' 'LEU' 'SER' 'ASP' 'SER' 'VAL' 'GLU' 'ALA' 'ARG' 'GLU'
+ 'GLU' 'ALA']
+['VAL' 'ILE' 'ARG' 'ALA' 'PHE' 'ARG' 'GLY' 'ASN' 'GLU' 'LEU' 'GLN' 'ASN'
+ 'TYR' 'PHE']
+['ILE' 'GLY' 'LYS' 'SER' 'THR' 'ASP' 'SER' 'GLU' 'ARG' 'THR' 'LYS' 'GLN'
+ 'ASP' 'ALA']
+['ASN' 'VAL' 'PHE' 'LEU' 'ALA' 'GLN' 'ASN' 'LEU' 'GLU' 'GLU' 'ARG' 'SER'
+ 'ARG' 'ALA']
+['ILE' 'ALA' 'GLY' 'ASP' 'ALA' 'THR' 'ALA' 'THR' 'THR' 'VAL' 'SER' 'GLN'
+ 'MET' 'HIS']
+['ALA' 'ILE' 'GLY' 'GLU' 'ALA' 'LYS' 'ASP' 'GLU' 'ASP' 'THR' 'ALA' 'ASP'
+ 'ILE' 'PHE']
+['LEU' 'CYS' 'ALA' 'MSE' 'TYR' 'THR' 'ASP' 'PRO' 'ILE' 'ALA' 'THR' 'ALA'
+ 'ILE' 'PHE']
+['CYS' 'VAL' 'ALA' 'HIS' 'ALA' 'ASP' 'LYS' 'LEU' 'GLU' 'SER' 'LYS' 'LEU'
+ 'ARG' 'PHE']
+['LEU' 'GLY' 'SER' 'SER' 'GLU' 'ASP' 'ASN' 'THR' 'ALA' 'LEU' 'SER' 'ARG'
+ 'ALA' 'LEU']
+['LEU' 'ALA' 'GLU' 'LYS' 'ILE' 'LYS' 'ILE' 'GLU' 'ALA' 'LEU' 'LYS' 'GLU'
+ 'LYS' 'ILE']
+['ARG' 'ILE' 'HIS' 'ASN' 'SER' 'ASN' 'ILE' 'LEU' 'ASP' 'GLU' 'ARG' 'GLN'
+ 'GLY' 'LEU']
+['ILE' 'PHE' 'LEU' 'LEU' 'SER' 'ARG' 'SER' 'THR' 'ALA' 'ASN' 'GLN' 'GLN'
+ 'VAL' 'ALA']
+['ILE' 'ALA' 'LYS' 'THR' 'ALA' 'PRO' 'ASN' 'ALA' 'ALA' 'ASP' 'ARG' 'LYS'
+ 'ALA' 'ALA']
+['ALA' 'GLY' 'ILE' 'TYR' 'ALA' 'LYS' 'SER' 'PRO' 'VAL' 'LYS' 'CYS' 'GLU'
+ 'TYR' 'LEU']
+['ALA' 'VAL' 'HIS' 'ASN' 'SER' 'GLN' 'ARG' 'SER' 'VAL' 'ILE' 'GLN' 'GLU'
+ 'GLN' 'ALA']
+['ARG' 'ALA' 'GLU' 'ASP' 'GLU' 'MET' 'ASP' 'LEU' 'ASP' 'ARG' 'ARG' 'ALA'
+ 'TYR' 'ALA']
+['ARG' 'ILE' 'GLN' 'LYS' 'SER' 'LYS' 'GLY' 'ARG' 'ALA' 'GLU' 'LYS' 'ILE'
+ 'ARG' 'HIS']
+['ILE' 'ALA' 'GLU' 'GLY' 'TYR' 'SER' 'ALA' 'LYS' 'GLU' 'VAL' 'LYS' 'ASN'
+ 'ASP' 'ALA']
+['ALA' 'VAL' 'VAL' 'LYS' 'SER' 'GLU' 'THR' 'HIS' 'SER' 'GLU' 'MSE' 'LEU'
+ 'ALA' 'ALA']
+['LYS' 'ALA' 'LEU' 'ASP' 'THR' 'THR' 'ASP' 'LEU' 'ASN' 'LEU' 'ARG' 'LYS'
+ 'GLN' 'TYR']

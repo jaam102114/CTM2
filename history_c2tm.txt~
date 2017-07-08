@@ -16,7 +16,7 @@ c2tm_bbmodels/00132.c083f221a8a8.allbb.pdb
 ./create PDS with mini 642 and used the databae provied by MM
  ./master --bbRMSD --rmsdCut .5 --targetList master_db.list.txt
 
-I converted master sequence utput files to fasta multiple sequence alignmetn files
+I converted master sequence output files to fasta multiple sequence alignmetn files
 python aaScript.py /home/kazutoshi/c2tm/bb_624/mini_642.seq >> weblogo.fasta
 
 Using weblogo.fasta to make weblogos with different RMSD cutoffs using aaScript.py
@@ -74,6 +74,75 @@ python frequencyAAScript.py positional_arrays4sequences.txt
 A print of frequencies can be outputted 
 
 Using pymol for analysis, determined that loopMatch514 passed trhough the most positions of the matching pdbs.
+
+
+#
+/home/gpu/jam_NewRepository/CTM2/master --query /home/gpu/jam_NewRepository/CTM2/Designed132BB_v2Loop.pds --targetList /home/gpu/Desktop/mm_162901_SCmasterDB/v2_162901_bc_30-scPDB/list2.txt --rmsdCut 1.0 --matchOut Designed132BB_v2Loop.match --seqOut Designed132BB_v2Loop.seq --structOut Designed132BB_v2Loop.struct --topN 5000
+
+
+
+# Using following script to create loop 132
+python ../bin/mm/EZresiOptimizer.py Designed132BB_v2.pdb resi.txt >> EZ_potentialNORM_scores.txt
+
+
+../createPDS --type query --pdb loopTemplate.pdb --opdb O_loopTemplate.pdb
+
+../master --query loopTemplate.pds --targetList /home/gpu/Desktop/mm_162901_SCmasterDB/v2_162901_bc_30-scPDB/list2.txt --rmsdCut .5 --matchOut 132loops.match --seqOut 132loops.seq --structOut 132loops --topN 4000 --bbRMSD
+
+
+######### Loops for 132
+
+python ../bin/mm/loopFinder.py loopTemplate.pdb 132loops.match ~/Desktop/mm_162901_SCmasterDB/v2_162901_bc_30-scPDB_oPDB/ 132loops
+
+
+loop Length   8 49 times
+loop Length   5 31 times
+loop Length   7 37 times
+loop Length   6 92 times
+loop Length   4 12 times
+loop Length   3 4 times
+loop Length   2 99 times
+
+
+########### 07/07/17		with using sequences for only loop length 2:
+
+Used script when in /home/kazutoshi/c2tm/mm_loopingDesign132/2_loops directory:
+
+python ../../residue_seq_script.py >> 2_loop_rawArraySequences.txt
+
+#Then using script: to create a text file that contains only the sequences
+
+python ../../aaScriptRawSequence.py 2_loop_rawArraySequences.txt >> 2_loop_rawSequences.txt
+
+
+# Finally using script:
+To create a print out of frequency analalysis
+
+python ../../rawSequenceReformating.py 2_loop_rawSequences.txt >> 2_loop_FrequencyData.txt
+
+
+
+############## with using sequences for only loop length 6:
+
+Used script when in /home/kazutoshi/c2tm/mm_loopingDesign132/6_loops directory:
+
+python ../../residue_seq_script.py >> 6_loop_rawArraySequences.txt
+
+#Then using script: to create a text file that contains only the sequences
+
+python ../../aaScriptRawSequence.py 6_loop_rawArraySequences.txt >> 6_loop_rawSequences.txt
+
+
+# Finally using script:
+To create a print out of frequency analalysis
+
+python ../../rawSequenceReformating.py 6_loop_rawSequences.txt >> 6_loop_FrequencyData.txt
+
+
+
+
+
+
 
 
 
